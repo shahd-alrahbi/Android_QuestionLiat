@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:id="@+id/cardview">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Name:Shahd Alrahbi"
+        android:textColor="#072CF8"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#072CF8"
+        android:text="ID:Sh1236"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="130dp"/>
+
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:paddingStart="60dp"
+        android:text="Q1: Java is Programing Language?"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:rating="3" />
+
+     <com.google.android.material.textfield.TextInputEditText
+         android:id="@+id/answer"
+         android:layout_width="250dp"
+         android:layout_height="100dp"
+         android:layout_marginStart="50dp"
+         android:layout_marginTop="240dp"
+         android:background="@drawable/edit_shape" />
+
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/start"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/btn_shape"
+        android:text="Get Start"
+        android:textColor="#F9FAFB"
+        android:textSize="20dp" />
+
+
+</androidx.cardview.widget.CardView>
