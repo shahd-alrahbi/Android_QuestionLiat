@@ -65,7 +65,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="350dp"
         android:background="@drawable/btn_shape"
-        android:text="Get Start"
+        android:text="Enter"
         android:textColor="#F9FAFB"
         android:textSize="20dp" />
 

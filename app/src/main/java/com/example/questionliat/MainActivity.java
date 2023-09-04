@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
 
     private List<Question> myListQuestion(){
         List<Question> questions=new ArrayList<>();
-        questions.add(new Question("shahad",12345,"Java is a programming Language?","3","Yes","Enter"));
-        questions.add(new Question("Saad Alrahbi",23456,"How old you?","3","--------","Enter"));
-        questions.add(new Question("salim Alrahbi",34567,"What do you do?/ What’s your job?","3","--------","Enter"));
-        questions.add(new Question("Ahmed Alrahbi",45678,"How many children do you have?","3","--------","Enter"));
-        questions.add(new Question("Huda Alrahbi",56789,"Who do you live with?","3","--------","Enter"));
-        questions.add(new Question("Maram Alrahbi",102345,"When do you do morning exercises?","3","--------","Enter"));
+        questions.add(new Question("shahd Alrahbi",12345,"Java is a programming Language?","3","Yes","Enter"));
+        questions.add(new Question("Saad Alhadi",23456,"C++ is a programming Language?","3"," ","Enter"));
+        questions.add(new Question("salim Alamri",34567,"Python is a programming Language?","3"," ","Enter"));
+        questions.add(new Question("Ali Albulashi",45678,"Dart is a programming Language?","3"," ","Enter"));
+        questions.add(new Question("Huda Ahmed ",56789,"C# is a programming Language?","3"," ","Enter"));
+        questions.add(new Question("Muna Mohammed",102345,"What is Object-Oriented Programming language","3"," ","Enter"));
         return questions;
     }
 }

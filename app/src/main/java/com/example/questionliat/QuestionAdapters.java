@@ -53,7 +53,7 @@ public class QuestionAdapters extends BaseAdapter {
         Question question=(Question) getItem(position);
 
         textName.setText(question.getName());
-//        textId.setText(question.getId());
+       textId.setText(question.getId() + "");
         textQuestion.setText(question.getQuestion());
         ratingBar.setNumStars(question.setRating(String.valueOf(3)));
         editAnswer.setText(question.getAnswer());
